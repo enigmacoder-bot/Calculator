@@ -232,3 +232,14 @@ body{
       left: 4px;
     }
   }
+  /*Responsive*/
+  @media  (max-width:500px){
+    .calculator-grid{
+      display: grid;
+      
+      justify-content: center;
+      align-content: center;
+      grid-template-columns:repeat(4,75px);
+      grid-template-rows: minmax(100px,auto) repeat(5,75px); 
+  }
+   }
